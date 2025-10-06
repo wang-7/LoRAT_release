@@ -1,0 +1,187 @@
+{
+  "('unknown_env0', 'known_env0')": {
+    "KL(P||Q)": {
+      "L1 distance": 9676.6806640625,
+      "L2 distance": 38.781402587890625,
+      "Normalized L1": 0.03332570195198059,
+      "Normalized L2": 0.07095295190811157,
+      "Cosine similarity": 0.4666610360145569
+    },
+    "KL(Q||P)": {
+      "L1 distance": 9919.9658203125,
+      "L2 distance": 37.81074523925781,
+      "Normalized L1": 0.032522477209568024,
+      "Normalized L2": 0.06889909505844116,
+      "Cosine similarity": 0.5530672073364258
+    },
+    "Symmetric KL": {
+      "L1 distance": 9687.3486328125,
+      "L2 distance": 38.28937911987305,
+      "Normalized L1": 0.03275812789797783,
+      "Normalized L2": 0.07055667042732239,
+      "Cosine similarity": 0.4578816592693329
+    },
+    "JS divergence": {
+      "L1 distance": 9701.7998046875,
+      "L2 distance": 38.54090118408203,
+      "Normalized L1": 0.03341393172740936,
+      "Normalized L2": 0.07132166624069214,
+      "Cosine similarity": 0.4724377691745758
+    },
+    "Wasserstein-1 distance": {
+      "L1 distance": 9636.65234375,
+      "L2 distance": 37.90576934814453,
+      "Normalized L1": 0.03350040316581726,
+      "Normalized L2": 0.06949819624423981,
+      "Cosine similarity": 0.5041316747665405
+    }
+  },
+  "('unknown_env0', 'known_env1')": {
+    "KL(P||Q)": {
+      "L1 distance": 9389.7626953125,
+      "L2 distance": 37.12696838378906,
+      "Normalized L1": 0.032173387706279755,
+      "Normalized L2": 0.06759917736053467,
+      "Cosine similarity": 0.47551843523979187
+    },
+    "KL(Q||P)": {
+      "L1 distance": 9091.0498046875,
+      "L2 distance": 36.65871810913086,
+      "Normalized L1": 0.030459409579634666,
+      "Normalized L2": 0.06649405509233475,
+      "Cosine similarity": 0.4967602789402008
+    },
+    "Symmetric KL": {
+      "L1 distance": 9009.92578125,
+      "L2 distance": 37.030174255371094,
+      "Normalized L1": 0.031149841845035553,
+      "Normalized L2": 0.06803235411643982,
+      "Cosine similarity": 0.46634170413017273
+    },
+    "JS divergence": {
+      "L1 distance": 9054.2578125,
+      "L2 distance": 37.01298522949219,
+      "Normalized L1": 0.03234478086233139,
+      "Normalized L2": 0.06793823838233948,
+      "Cosine similarity": 0.4715970754623413
+    },
+    "Wasserstein-1 distance": {
+      "L1 distance": 9497.1953125,
+      "L2 distance": 35.980918884277344,
+      "Normalized L1": 0.030357234179973602,
+      "Normalized L2": 0.06195765733718872,
+      "Cosine similarity": 0.5051628947257996
+    }
+  },
+  "('unknown_env0', 'known_env2')": {
+    "KL(P||Q)": {
+      "L1 distance": 6336.9736328125,
+      "L2 distance": 22.761777877807617,
+      "Normalized L1": 0.019271131604909897,
+      "Normalized L2": 0.04397708550095558,
+      "Cosine similarity": 0.6210960745811462
+    },
+    "KL(Q||P)": {
+      "L1 distance": 7877.60205078125,
+      "L2 distance": 32.01734924316406,
+      "Normalized L1": 0.026650022715330124,
+      "Normalized L2": 0.057191114872694016,
+      "Cosine similarity": 0.6128169298171997
+    },
+    "Symmetric KL": {
+      "L1 distance": 5601.5615234375,
+      "L2 distance": 23.30328941345215,
+      "Normalized L1": 0.019341295585036278,
+      "Normalized L2": 0.04207530990242958,
+      "Cosine similarity": 0.6471262574195862
+    },
+    "JS divergence": {
+      "L1 distance": 6966.5849609375,
+      "L2 distance": 26.4527587890625,
+      "Normalized L1": 0.02420010231435299,
+      "Normalized L2": 0.047824230045080185,
+      "Cosine similarity": 0.6046468615531921
+    },
+    "Wasserstein-1 distance": {
+      "L1 distance": 9292.3125,
+      "L2 distance": 34.73479080200195,
+      "Normalized L1": 0.030402742326259613,
+      "Normalized L2": 0.06468240171670914,
+      "Cosine similarity": 0.4925364851951599
+    }
+  },
+  "('unknown_env0', 'known_env3')": {
+    "KL(P||Q)": {
+      "L1 distance": 9416.111328125,
+      "L2 distance": 37.25471878051758,
+      "Normalized L1": 0.0322640985250473,
+      "Normalized L2": 0.0676516443490982,
+      "Cosine similarity": 0.474842369556427
+    },
+    "KL(Q||P)": {
+      "L1 distance": 9393.890625,
+      "L2 distance": 36.80549621582031,
+      "Normalized L1": 0.03086061030626297,
+      "Normalized L2": 0.06636249274015427,
+      "Cosine similarity": 0.48190975189208984
+    },
+    "Symmetric KL": {
+      "L1 distance": 9119.9091796875,
+      "L2 distance": 37.40534973144531,
+      "Normalized L1": 0.032016970217227936,
+      "Normalized L2": 0.06919515132904053,
+      "Cosine similarity": 0.4632359445095062
+    },
+    "JS divergence": {
+      "L1 distance": 9196.46875,
+      "L2 distance": 37.394691467285156,
+      "Normalized L1": 0.032939519733190536,
+      "Normalized L2": 0.06987038254737854,
+      "Cosine similarity": 0.47213202714920044
+    },
+    "Wasserstein-1 distance": {
+      "L1 distance": 9821.2802734375,
+      "L2 distance": 38.19063186645508,
+      "Normalized L1": 0.03316985443234444,
+      "Normalized L2": 0.07120773196220398,
+      "Cosine similarity": 0.5012197494506836
+    }
+  },
+  "('unknown_env0', 'known_env4')": {
+    "KL(P||Q)": {
+      "L1 distance": 7734.55224609375,
+      "L2 distance": 33.3234977722168,
+      "Normalized L1": 0.02762090228497982,
+      "Normalized L2": 0.060178425163030624,
+      "Cosine similarity": 0.6577662825584412
+    },
+    "KL(Q||P)": {
+      "L1 distance": 8425.6318359375,
+      "L2 distance": 33.1842155456543,
+      "Normalized L1": 0.027721278369426727,
+      "Normalized L2": 0.06142789497971535,
+      "Cosine similarity": 0.688391923904419
+    },
+    "Symmetric KL": {
+      "L1 distance": 8190.28515625,
+      "L2 distance": 33.56265640258789,
+      "Normalized L1": 0.027853146195411682,
+      "Normalized L2": 0.06213643401861191,
+      "Cosine similarity": 0.5976369976997375
+    },
+    "JS divergence": {
+      "L1 distance": 7964.78466796875,
+      "L2 distance": 33.16179275512695,
+      "Normalized L1": 0.026475965976715088,
+      "Normalized L2": 0.06093563139438629,
+      "Cosine similarity": 0.6794875264167786
+    },
+    "Wasserstein-1 distance": {
+      "L1 distance": 9712.0888671875,
+      "L2 distance": 38.11555480957031,
+      "Normalized L1": 0.03342882916331291,
+      "Normalized L2": 0.07015544176101685,
+      "Cosine similarity": 0.503535807132721
+    }
+  }
+}

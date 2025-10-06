@@ -1,0 +1,13 @@
+*.pdf
+*.out
+*.onnx
+*.npy
+*.npz
+*.pt
+*.pth
+*.pyc
+__pycache__/
+img/
+plots/
+events.out.tfevents.*
+# *.pdf
