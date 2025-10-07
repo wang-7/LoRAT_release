@@ -341,7 +341,7 @@ def main(args):
             model.load_state_dict(torch.load(f'{model_dir}/lora/lora_weights.pt'),strict=False)
         else:
             model.load_state_dict(checkpoint['model'])
-    elif args.task_id in [10, 11,]:
+    elif args.task_id in [10, 11, 12]:
         if params.lora:
             model.load_state_dict(checkpoint['model'],strict=False)
             model.load_state_dict(torch.load(f'{model_dir}/lora/lora_weights.pt'),strict=False)

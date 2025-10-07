@@ -770,11 +770,11 @@ params_exp_vivo_9_15 = AttrDict(
     lora=True,
     seen_idx = [-1],
     # seen_idx = [i for i in range(15)],
-    FT_id = 15,
+    FT_id = 14,
     ant_idx= -1,
-    log_dir='./log/exp_vivo_10_5/FT15',
+    log_dir='./log/exp_vivo_10_5/FT14',
     # When fine-tuning, remember to move base model to model_dir
-    model_dir='./model/exp_vivo_10_5/FT15',
+    model_dir='./model/exp_vivo_10_5/FT14',
     data_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/15680_21_5_32_train_data.npy'],
     # data_dir=['/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region0', 
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region1', 
@@ -784,7 +784,7 @@ params_exp_vivo_9_15 = AttrDict(
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region5',
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region9',
             # ],
-    out_dir='./inference/exp_vivo_10_5/FT15',
+    out_dir='./inference/exp_vivo_10_5/FT14',
     cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/3940_21_5_32_test_data.npy'], # test set
     # cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/15680_21_5_32_train_data.npy'], # test set
     # fid_pred_dir = './dataset/exp_2_14/img_matric/pred',
