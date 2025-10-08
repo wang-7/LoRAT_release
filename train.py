@@ -26,7 +26,7 @@ def _get_free_port():
         return s.server_address[1]
 
 def _train_impl(replica_id, model, dataset, params):
-    opt = torch.optim.AdamW(model.parameters(), lr=params.learning_rate)
+    opt = torch.optim.AdamW(model.parameters(), lr=params.lora_learning_rate if params.lora else params.learning_rate)
     learner = tfdiffLearner(params.log_dir, params.model_dir, model, dataset, opt, params)
     learner.is_master = (replica_id == 0)
     learner.restore_from_checkpoint()
