@@ -222,6 +222,7 @@ class ComplexLinear(nn.Module):
                 
                 # 添加 LoRA 部分
                 x_dropout = self.lora_dropout(X_r)
+                # TODO: fix the result_i with dropout(x_i)
                 result_r += ((x_dropout @ self.lora_A_r.T @ self.lora_B_r.T)) * self.scaling
                 result_i += ((x_dropout @ self.lora_A_i.T @ self.lora_B_i.T)) * self.scaling
             else:

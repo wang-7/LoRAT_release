@@ -768,13 +768,13 @@ params_exp_4_3_multiband = AttrDict(
 params_exp_vivo_9_15 = AttrDict(
     task_id=12,
     lora=True,
-    seen_idx = [-1],
+    seen_idx = [None],
     # seen_idx = [i for i in range(15)],
     FT_id = 16,
-    ant_idx= -1,
-    log_dir='./log/exp_vivo_10_7/FT16',
+    ant_idx= None,
+    log_dir='./log/exp_vivo_10_16/FT16',
     # When fine-tuning, remember to move base model to model_dir
-    model_dir='./model/exp_vivo_10_7/FT16',
+    model_dir='./model/exp_vivo_10_16/FT16',
     data_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/15680_21_5_32_train_data.npy'],
     # data_dir=['/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region0', 
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region1', 
@@ -784,9 +784,9 @@ params_exp_vivo_9_15 = AttrDict(
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region5',
     #             '/media/zuser/Harddisk4TB/WQ/bedroom/exp_2_12_FedDiff/exp_2_12_1/region9',
             # ],
-    out_dir='./inference/exp_vivo_10_7/FT16',
-    cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/3940_21_5_32_test_data.npy'], # test set
-    # cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/15680_21_5_32_train_data.npy'], # test set
+    out_dir='./inference/exp_vivo_10_16/FT16',
+    # cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/3940_21_5_32_test_data.npy'], # test set
+    cond_dir=['/mnt/data/WQ/Raw-CSI-Data/vivo1_9_17/15680_21_5_32_train_data.npy'], # train set
     # fid_pred_dir = './dataset/exp_2_14/img_matric/pred',
     # fid_data_dir = './dataset/exp_2_14/img_matric/data',
     # Federated params
@@ -794,14 +794,14 @@ params_exp_vivo_9_15 = AttrDict(
     # local_epochs=1,
     # LoRA params
     lora_r = 8,
-    lora_alpha = 32,
+    lora_alpha = 1,
     lora_dropout = 0.,
     # Training params
     max_iter=None, # Unlimited number of iterations.
     batch_size=16,
     learning_rate=1e-4,
-    # following *LoRA without Regret*, we use 10x of FullFT learning rate for LoRA
-    lora_learning_rate=1e-3,
+    # following *LoRA without Regret*, we use ~10x of FullFT learning rate for LoRA
+    lora_learning_rate=6e-4,
     max_grad_norm=None,
     # Inference params
     inference_batch_size=16,
