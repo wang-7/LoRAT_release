@@ -10,4 +10,7 @@ __pycache__/
 img/
 plots/
 events.out.tfevents.*
+/log/
+/inference/
+/runs
 # *.pdf
